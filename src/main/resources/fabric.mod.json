@@ -9,8 +9,7 @@
 		"moxg"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/moxg22/MoonPhaseIndicatorUpdated"
 	},
 	"license": "MIT",
 	"icon": "assets/moonphaseindicatoru/icon.png",
