@@ -9,14 +9,22 @@
 		"moxg"
 	],
 	"contact": {
+		"homepage": "https://github.com/moxg22/MoonPhaseIndicatorUpdated/",
+		"issues": "https://github.com/moxg22/MoonPhaseIndicatorUpdated/issues",
 		"sources": "https://github.com/moxg22/MoonPhaseIndicatorUpdated"
 	},
 	"license": "MIT",
 	"icon": "assets/moonphaseindicatoru/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 		"main": [
 			"com.moxg.moonphaseindicatoru.MoonPhaseIndicatorUpdated"
+		],
+		"client": [
+			"com.moxg.moonphaseindicatoru.MoonPhaseIndicatorUpdatedClient"
+		],
+		"modmenu": [
+			"com.moxg.moonphaseindicatoru.ModMenuIntegration"
 		]
 	},
 	"mixins": [
@@ -27,8 +35,5 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

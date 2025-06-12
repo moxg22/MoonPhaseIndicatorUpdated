@@ -2,8 +2,9 @@
 	"required": true,
 	"package": "com.moxg.moonphaseindicatoru.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
+	"mixins": [],
+	"client": [
+		"ClientPlayNetworkHandlerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
